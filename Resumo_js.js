@@ -585,3 +585,4 @@ if (anything2=='Ger'){
 };
 
 //Manipulação de DOM
+console.log('3');
