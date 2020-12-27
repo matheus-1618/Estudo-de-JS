@@ -585,4 +585,5 @@ if (anything2=='Ger'){
 };
 
 //Manipulação de DOM
+//Video indicado na URL de 4:20 até 4:26
 console.log('12');

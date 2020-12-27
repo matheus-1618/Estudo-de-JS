@@ -1,8 +1,10 @@
-// console.log('eu memo');
-// prompt('E ai mano qual vai ser?');
-// let pergunta= prompt('Qua vai ser em?');
-// if (pergunta=='Sei n'){
-//     alert('KKKK gado')
-//     console.log('kkk manezao');
-// };
-// console.log(pergunta);
+function VerificarEntrada(){
+    NomeConvidado= document.getElementById('nome').value;
+    Convidados=['Matheus','Joao']
+    if(Convidados.includes(NomeConvidado)){
+        document.getElementById('PermissaoDeEntrada').innerText="Voce pode chefe"
+    }
+    else{
+        document.getElementById('PermissaoDeEntrada').innerText='KK sai fora ai ze'
+    }
+}
